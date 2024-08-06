@@ -2,220 +2,289 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S.Vinay</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <title>Portfolio_Website</title>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
 <body>
-    <header>
-        <h1>S.Vinay</h1>
-        <p>Full Stack Developer</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#" onclick="showSection('about')">About Me</a></li>
-            <li><a href="#" onclick="showSection('projects')">Projects</a></li>
-            <li><a href="#" onclick="showSection('experience')">Experience</a></li>
-            <li><a href="#" onclick="showSection('blog')">Blog</a></li>
-            <li><a href="#" onclick="showSection('contact')">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>I am a 4th-year Computer Science student with a solid academic
-            foundation and a keen interest in software development. I have
-            hands-on experience with programming languages including C,
-            Java, Python, and JavaScript, and have completed various projects
-            during my studies. My internship at DIGITAL LYNC provided
-            valuable insights into Python and artificial intelligence, enhancing my
-            ability to work effectively in a team and apply technical skills in realworld scenarios. I am eager to leverage my knowledge and
-            experience in a software development role where I can continue to
-            grow and contribute to innovative projects. My strong work ethic,
-            enthusiasm for learning, and passion for coding make me a
-            motivated candidate ready to embrace new challenges and make a
-            positive impact.
-            </p>
-        <h3>Skills</h3>
-        <ul>
-            <li>C</li>
-            <li>Java</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Database: MySQL</li>
-        </ul>
-    </section>
-    <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div>
-            <h3>Smart Shopping Cart</h3>
-            <p></p>
+   
+<div class="container">
+    <div class="nav_section">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand text-white" href="#">@vinay <span>.</span></a>
+            <button class="navbar-toggler" style="border: navajowhite;" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="text-white fa fa-bars"></i>
+            </button>
+  
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #f54717 !important" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!-- Hero Section -->
+<div class="hero_section" id="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12">
+                <h1>S.Vinay</h1>
+                <p>A diligent worker who is enthusiastic about implementing and starting new tasks. I am eager to work for a company that will give me a dynamic work environment where I can use my innate skills and abilities to succeed in the multifaceted field of software development.</p>
+                <div class="btn_container">
+                    <button class="btn btn-light animate_animated" onclick="location.href='#contact'">Contact Me</button>
+                </div>
+            </div>
             
         </div>
-    </section>
-    <section id="experience" class="section">
-        <h2>Experience</h2>
-        
+    </div>
+</div>
 
-        <h3>DIGITAL LYNC</h3>
-        <p>15 may 2024 to 30 jun 2024</p>
-        <p>Intern</p>
+<!-- About Me Section -->
+<div class="about_section" id="about">
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section">
+                <h2 id="heading">About Me</h2>
+                <hr>
+                <p id="txt">I am a 4th-year Computer Science student with a solid academic foundation and a keen interest in software development. I have hands-on experience with programming languages including C, Java, Python, and JavaScript, and have completed various projects during my studies. My internship at DIGITAL LYNC provided valuable insights into Python and artificial intelligence, enhancing my ability to work effectively in a team and apply technical skills in real-world scenarios. I am eager to leverage my knowledge and experience in a software development role where I can continue to grow and contribute to innovative projects. My strong work ethic, enthusiasm for learning, and passion for coding make me a motivated candidate ready to embrace new challenges and make a positive impact.</p>
+                <table class="table">
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>Sathivilli Vinay</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>sathivillivinay@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>College</td>
+                        <td>:</td>
+                        <td>GITAM University, Visakhapatnam</td>
+                    </tr>
+                </table>
+                <!-- Updated Download CV Button -->
+                <a href="C:\Users\HP\Desktop\vproti\resume.pdf" class="btn btn-light btn-sm animate_animated" download>Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <h3>INTERNPE</h3>
-        <p>29 jan 2024 to 25 feb 2024</p>
-        <p>Intern Web Developer</p>
-    </section>
-    <section id="blog" class="section">
-        <h2>Blog</h2>
-        <article>
-            <h3>Creating a Student Database Management System</h3>
-            <p>As part of my web development projects, I created a student database management system using HTML, CSS, JavaScript, and XAMPP. This project aimed to streamline the process of managing student information, making it easily accessible and manageable.</p>
-            <ul>
-                <li><strong>Project Requirements:</strong>
-                    <ul>
-                        <li>A user-friendly interface for adding, updating, and deleting student records.</li>
-                        <li>Secure login functionality for administrators.</li>
-                        <li>Efficient data storage and retrieval.</li>
-                    </ul>
-                </li>
-                <li><strong>Design and Implementation:</strong>
-                    <ul>
-                        <li><strong>Frontend:</strong>
-                            <ul>
-                                <li><strong>HTML & CSS:</strong> Used for structuring and styling the user interface.</li>
-                                <li><strong>JavaScript:</strong> Added interactivity and form validation.</li>
-                            </ul>
-                        </li>
-                        <li><strong>Backend:</strong>
-                            <ul>
-                                <li><strong>XAMPP:</strong> Used for setting up the local server and MySQL database.</li>
-                                <li><strong>PHP:</strong> Handled server-side logic and database interactions.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
 
-        <article>
-            <h3>What I Learned During My Web Development Internship at Symbiosys Technologies</h3>
-            <p>During my internship at Symbiosys Technologies, I gained hands-on experience in web development. This post will cover the projects I worked on, the skills I developed, and the key takeaways from my time at the company.</p>
-            <ul>
-                <li><strong>Projects Worked On:</strong>
-                    <ul>
-                        <li>Developed a responsive company website.</li>
-                        <li>Implemented a content management system for internal use.</li>
-                        <li>Contributed to a client e-commerce platform.</li>
-                    </ul>
-                </li>
-                <li><strong>Skills Developed:</strong>
-                    <ul>
-                        <li>Proficiency in HTML, CSS, and JavaScript.</li>
-                        <li>Experience with React and Node.js.</li>
-                        <li>Understanding of version control using Git.</li>
-                    </ul>
-                </li>
-                <li><strong>Key Takeaways:</strong>
-                    <ul>
-                        <li>Importance of effective communication within a team.</li>
-                        <li>Learning to write clean and maintainable code.</li>
-                        <li>Adapting to fast-paced work environments.</li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
+<!-- Skills Section -->
+<div class="skills_section" id="skills">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 skills_section_left_section">
+                <div>
+                    <h1 class="text-white" id="heading">My Skills <span style="color: rgb(238, 105, 16);">----</span></h1>
+                    <hr>
+                    <p>Other Non-Technical Skills I am into is <span style="color: hotpink;">....</span></p>
+                    <div class="social_media_icons">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a> Problem-Solving</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a>Leadership</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a>Time Management</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a>Team collaboration</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 skills_section_right_section">
+                <div>
+                    <div class="each_skills">
+                        <span>HTML</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
 
-        <article>
-            <h3>Getting Started with Software-Defined WAN (SD-WAN)</h3>
-            <p>In this tutorial, I will explain the basics of SD-WAN, its benefits, and how to implement a secure and flexible network connectivity solution. We'll also look at a project I worked on where we implemented SD-WAN for a client.</p>
-            <ul>
-                <li><strong>Introduction to SD-WAN:</strong>
-                    <ul>
-                        <li>Definition and key concepts.</li>
-                        <li>Advantages over traditional WAN.</li>
-                    </ul>
-                </li>
-                <li><strong>Implementation Steps:</strong>
-                    <ul>
-                        <li>Setting up the network infrastructure.</li>
-                        <li>Configuring SD-WAN software.</li>
-                        <li>Ensuring security and scalability.</li>
-                    </ul>
-                </li>
-                <li><strong>Case Study:</strong>
-                    <ul>
-                        <li>Project overview and objectives.</li>
-                        <li>Challenges faced and solutions implemented.</li>
-                        <li>Outcomes and lessons learned.</li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
+                    <div class="each_skills">
+                        <span>CSS</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
 
-        <article>
-            <h3>Integrating IoT with Payment Gateways: A Case Study of a Smart Shopping Cart</h3>
-            <p>This post will delve into my research on developing an IoT-based smart shopping cart with an integrated payment gateway. We'll discuss the technology stack used, the implementation process, and the potential impact of such a system.</p>
-            <ul>
-                <li><strong>Research Overview:</strong>
-                    <ul>
-                        <li>Objective and scope of the research.</li>
-                        <li>Technologies and tools used.</li>
-                    </ul>
-                </li>
-                <li><strong>Implementation Process:</strong>
-                    <ul>
-                        <li>Designing the smart shopping cart.</li>
-                        <li>Integrating IoT sensors and devices.</li>
-                        <li>Setting up the payment gateway.</li>
-                    </ul>
-                </li>
-                <li><strong>Impact and Future Prospects:</strong>
-                    <ul>
-                        <li>Benefits for retailers and consumers.</li>
-                        <li>Challenges and limitations.</li>
-                        <li>Potential for future development and enhancements.</li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
+                    <div class="each_skills">
+                        <span>JS</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="each_skills">
+                        <span>Python</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="each_skills">
+                        <span>AI</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
 
-        <article>
-            <h3>Understanding Data Structures in Python</h3>
-            <p>Data structures are a fundamental aspect of programming. In this post, I will explain various data structures in Python, their use cases, and how to implement them effectively in your projects.</p>
-            <ul>
-                <li><strong>Introduction to Data Structures:</strong>
-                    <ul>
-                        <li>Importance and types of data structures.</li>
-                        <li>Overview of data structures in Python.</li>
-                    </ul>
-                </li>
-                <li><strong>Common Data Structures:</strong>
-                    <ul>
-                        <li>Lists and their operations.</li>
-                        <li>Tuples and their use cases.</li>
-                        <li>Dictionaries for key-value pairs.</li>
-                        <li>Sets and their properties.</li>
-                    </ul>
-                </li>
-                <li><strong>Implementing Data Structures:</strong>
-                    <ul>
-                        <li>Examples of using lists, tuples, dictionaries, and sets in Python.</li>
-                        <li>Best practices for efficient data handling.</li>
-                    </ul>
-                </li>
-            </ul>
-        </article>
-    </section>
-    <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:sathivillivinay@gmail.com">sathivillivinay@gmail.com</a></p>
-        
-    </section>
-    <footer>
-        <p>&copy; CH.Chaitanya Sai. All rights reserved.</p>
-    </footer>
-    <script src="scripts.js"></script>
+                    
+
+                    <div class="each_skills">
+                        <span>Java</span>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="each_skills">
+                        <span>C</span>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Projects Section -->
+<div class="projects_section" id="projects">
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-lg-6 col-md-6 col-ms-12 col-xs-12 about_me_right_section">
+                <h1 class="text-white" id="heading">Projects<span style="color: rgb(196, 79, 33);">---</span></h1>
+                <hr>
+                <div class="projects">
+                    <div>
+                        <h3>DBMS:</h3>
+                        <p>Database case study: Online Movie Ticket System
+                            (OMTS) used web-based application</p>
+                    </div>
+                    <div>
+                        <h3>Computer Networks:</h3>
+                        <p>Configuring a network
+                            intrusion detection system (NIDS) to detect and
+                            respond to network attacks in real-time.</p>
+                    </div>
+
+                    <div>
+                        <h3>Python with AI:</h3>
+                        <p>Car Insurance Fraud Detection using ML.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Certificates Section -->
+<section class="certificates" id="certificates">
+    <h1 style="text-align: center;" class="text-white" id="heading">My Certificates <span style="color: rgb(241, 240, 238);">----</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="C:\Users\HP\Desktop\vproti\certificate.jpeg" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience" id="experience">
+    <h1 style="text-align: center;" class="heading"><span style="color: rgb(247, 236, 215);">My Experience -----</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="content">
+                <span>15 May 2024 to 30 Jun 2024</span>
+                <h3>Intern</h3>
+                <p> DIGITAL LYNC</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <span>29 Jan 2024 to 25 Feb 2024</span>
+                <h3>Intern Web Developer</h3>
+                <p>INTERNPE</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<div class="contact_section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-ms-12 col-xs-12">
+                <h2 id="heading">Contact Me <span style="color: #eb4f4f;">----</span></h2>
+                <hr>
+                <div class="contact_details">
+                    <h3>Contact Details:</h3>
+                    <p><strong>Email:</strong> <a href="mailto: sathivillivinay@gmail.com"> sathivillivinay@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel: +91 7207269135"> +91 7207269135</a></p>
+                    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sathivilli-vinay-65a1122b0/" target="_blank">https://www.linkedin.com/in/sathivilli-vinay-65a1122b0/</a></p>
+                    <p><strong>Location:</strong>Srikakulam</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p class="text-center">&copy; 2024 Vinay. All rights reserved.</p>
+    </div>
+</footer>
+
 </body>
 </html>
